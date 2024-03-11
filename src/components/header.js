@@ -32,14 +32,14 @@ function Header () {
  
    /* when other part of the page is clicked and menu is open, it will close. 
    the square bracket is to ensure that the function unmounts after initial click
-   so the menu button can reopen the menu when clicked again 
+   so the menu button can reopen the menu when clicked again */
  
    window.addEventListener ('mouseup', function (event) {
      let menu = document.getElementById('menu');
      if (event.target !== menu && event.target.parentNode !== menu && isToggle ) {
        menu.style.display='none';
      }
-     });*/
+     });
 
 
      /* to render call to action button active when on the current page*/
@@ -58,7 +58,7 @@ function Header () {
       });
      }
 
-          /* to make header responsive to scrolling up
+          /* to make header responsive to scrolling up*/
 
      const [isScrollingUp, setIsScrollingUp] = useState(true);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -76,15 +76,15 @@ function Header () {
     };
   }, [prevScrollPos]);
  
- */
+ 
   return ( 
    
-      <header className="App-header" >
+      <header className="App-header" style={{position: isScrollingUp ? 'sticky' : 'relative', top: '0', transition: 'position 2s ease-in 2s'}}>
         <p id='home' style={{display: 'hidden'}}></p>
         <div className="App-nav">
 
             <div className='App-logo' >
-            <NavLink to="/" className="navbar__link"><img src={logo} alt='Valor Motion Pictures'/></NavLink>
+            <NavLink to="/" className="navbar__link"><img src={logo} alt='Valor Pictures'/></NavLink>
             </div>
 
 

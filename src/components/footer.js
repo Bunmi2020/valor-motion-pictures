@@ -6,6 +6,7 @@ import tiktok from '../media/image/facebook1.png';
 import instagram from '../media/image/instagram1.png';
 
 import './footer.css'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     
@@ -41,10 +42,10 @@ const Footer = () => {
 
                 <div className='footer-company'>
                     <h2>Company</h2>
-                    <li><a href="/about" className="navbar__a">About Us</a></li>
-                    <li><a href="/video" className="navbar__a">Videos</a></li>
-                    <li><a href="/photos" className="navbar__a">Photos</a></li>
-                    <li><a href="/" >Stories</a></li>
+                    <li><NavLink to="/about" className="navbar__a">About Us</NavLink></li>
+                    <li><NavLink to="/video" className="navbar__a">Videos</NavLink></li>
+                    <li><NavLink to="/photos" className="navbar__a">Photos</NavLink></li>
+                    <li><NavLink to="/" >Stories</NavLink></li>
 
                 </div>
 
