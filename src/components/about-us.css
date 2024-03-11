@@ -1,0 +1,39 @@
+.about {
+    display: block;
+    background: #ded8f0;
+    padding: 10px 5%;
+}
+
+.about p {
+    color: black;
+}
+
+.App-about {
+    width: 90%;
+      display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.about-text {
+    display: block;
+    min-width: 300px;
+    text-align: left;
+    max-width: 35vw;
+    margin-top: 5%;
+}
+
+.about-image img {
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    max-width: 25vw;
+}
+
+.about-socials img {
+    width: 35px;
+}

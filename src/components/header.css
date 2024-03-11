@@ -1,0 +1,247 @@
+
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #030318;
+    z-index: 9;
+    
+    padding: 0% 10%;
+    padding-bottom: 32px;
+    
+  }
+
+
+.App-nav {
+  z-index: 7;
+
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+padding:  1% 2%;
+width: 90%;
+top: 0%;
+
+max-height: 15vw;
+}
+
+
+
+.App-logo {
+   
+  margin-left: 0%;
+margin-right: auto;
+
+padding-left: 2%;
+  
+  }
+
+  .App-logo img {
+    min-width: 4vw;
+    max-width: 120px;
+    margin: auto;
+  }
+
+  .App-header .App-menu {
+    display: flex;
+flex-direction: row;
+z-index: 9;
+flex-wrap: no-wrap;
+height: 24px;
+margin-left: auto;
+margin-right: 0%;
+/* Inside auto layout */
+
+  }
+
+  .App-nav li {
+  
+    top: 0%;
+    bottom: 0%;
+    min-width: 3vw;
+    max-width: 6vw;
+    /* button text */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    list-style: none;
+    text-align: center;
+
+    /* primary/blue */
+    min-width: max-content;
+    color: #f4f4f5;
+
+  }
+
+  
+  
+  .mobile-menu-button {
+    display: none;
+  }
+
+
+  @media (max-width: 750px) {
+
+    .App-header {
+      padding: 0%;
+      top:0%;
+       min-height: 15vw;
+    }
+
+    
+
+    .App-nav .App-logo img {
+      width: 100px;
+      margin: auto;
+
+    }
+
+    .App-header .App-nav {
+      min-height: 15vw;
+      width: 100%;
+      position: fixed;
+      
+      background: #030318;
+      top: 0%;
+      
+    }
+
+    .App-nav .App-logo  {
+      max-width: 130px;
+      
+      margin: auto 10px;
+
+    }
+
+    .mobile-menu-button {
+      display: flex;
+      flex-direction: row;
+    
+    margin: auto 0%;
+    gap: 5vw;
+    flex-wrap: no-wrap;
+    height: 24px;
+    margin-left: auto;
+    margin-right: 0%;
+    background: none;
+
+    }
+
+    .App-menu .desktop-menu {
+      display: none;
+    }
+
+    .mobile-menu {
+      position: fixed;
+      z-index: 9;
+    }
+
+
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    top: 10vw;
+    z-index: 9;
+    width: 100%;
+    z-index: 99;
+    gap: 20px;
+    text-align: left;
+    flex-wrap: no-wrap;
+    padding: 10px;
+    min-width: 350px;
+    max-width: 100%;
+    background: linear-gradient(180deg, #030318,#1e1e44);
+   
+      }
+
+   .App-header .mobile-menu a {
+        cursor: pointer;
+        color: #fffbfb;
+        text-decoration: none;
+        list-style: none;
+      }
+
+      
+      .App-header .mobile-menu li {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        margin: 5%;
+        line-height: 150%;
+        /* identical to box height, or 24px */
+        
+        text-align: left;
+        list-style: none;
+      }
+
+  .App-menu .desktop-menu .navbar__link {
+    cursor: pointer;
+    color: #fffbfb;
+    text-decoration: none;
+    
+  }
+
+  .App-header a {
+    color: #fffbfb;
+    text-decoration: none;
+  }
+  
+  
+    
+  
+   .App-menu {
+    display: flex;
+    flex-direction: row;
+  
+  margin: auto 0%;
+  gap: 5vw;
+  flex-wrap: no-wrap;
+  height: 24px;
+  margin-left: auto;
+  margin-right: 0%;
+  padding-right: 10px;
+  
+  
+    }
+
+    .desktop-menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 53px;
+      
+      max-width: 50vw;
+      height: 24px;
+    }
+    
+  
+    .desktop-menu .navbar__link:hover {
+    transform: translateY(-2px);
+    color: #c296be;
+    
+  }
+
+ 
+
+  .desktop-menu .navbar__link.active {
+    border-bottom: 2px solid #f4f4f5;
+    transition: border-bottom .5s ease-in-out;
+    color: #d2cae9;
+    
+  }
+
+  
+
+
+ 
+  
+ 
+  

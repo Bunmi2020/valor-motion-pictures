@@ -1,0 +1,51 @@
+.Portfolio {
+    display: block;
+}
+
+.categories {
+    display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+}
+
+.categories li {
+    list-style: none;
+    text-decoration: none;
+    
+    margin: 0% 2%;
+}
+
+.categories button {
+    cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 5px;
+  color: white;
+  max-width: 132px;
+  height: 44px;
+  
+  /* primary/red */
+  
+  background: linear-gradient(45deg, #07072e,#5c5c7c);
+  border-radius: 8px;
+  
+  }
+
+
+/*Use focus instead of active when trying to make button remain active after it has been clicked*/
+.categories button:focus {
+    background: linear-gradient(45deg, #565675, #4e4e6d );
+    color:#393947;
+}
+
+.categories button:active {
+    background: linear-gradient(45deg, #565675, #4e4e6d );
+    color:#565675;
+    box-shadow: 4px 4px 4px #5c02ec;
+    
+}

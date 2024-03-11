@@ -1,0 +1,32 @@
+
+.services {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5%;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 1%;
+    max-width: 300px;
+   justify-content:flex-end;
+}
+
+
+.service img {
+    max-height: 300px;
+    max-width: 350px;
+    margin: 0%;
+    padding-bottom: 0%;
+    border-radius: 5%;
+    box-shadow: inset;
+    box-shadow: 5px 5px 10px #1e1e44;
+    
+}
+

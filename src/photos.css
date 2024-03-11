@@ -1,0 +1,65 @@
+
+
+.photos {
+    display: block;
+    margin: 0%;
+    padding: 1%;
+    max-width: 80%;
+    min-height: 300px;
+    
+}
+
+@media (max-width: 450px) {
+
+    .photos img {
+        
+        width: 300px;
+       
+        margin: auto;
+        border-radius: 5%;
+       
+    }
+
+    
+.photos {
+    display: block;
+    text-align: left;
+    padding: 1%;
+    margin: auto;
+    min-height: 300px;
+    align-content: center;
+    
+}
+
+}
+
+
+
+.App .photo-paragraph p {
+    color: black;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.photo-paragraph h2 {
+    color: black;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.photo-paragraph {
+    margin: auto;
+    padding: 2%;
+    max-width: 600px;
+}
+
+.photos img {
+    max-height: 450px;
+    max-width: 550px;
+    margin: 2%;
+    border-radius: 5%;
+    box-shadow: inset;
+}

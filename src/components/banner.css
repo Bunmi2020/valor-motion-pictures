@@ -1,0 +1,159 @@
+.App-banner {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0%;
+    
+    background: #030318;
+    filter: brightness(1);
+    width: 100%;
+    min-height: 450px;
+    
+    
+    /*background-image: url(../media/image/camera.jpg);
+    background-repeat:no-repeat;
+    background-size: 1000px 500px; */
+    
+    
+    }
+
+
+    .inner-banner {
+      width: 90%;
+      display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 5%;
+    background: linear-gradient(180deg, #030318,#1e1e44);
+    border-radius: 10px;
+    }
+
+    
+        .App-banner .banner-left-space { 
+          
+          margin: auto;
+          max-width: 35%;
+          margin-left: 0%;
+          margin-right: 5.2%;
+          min-height: max-content;
+         
+        }
+  
+        
+    
+      
+      .banner-caption {
+        min-width: 250px;
+        display: block;
+        padding: 0px;
+        min-height: 252px;
+        max-width: 35vw;
+        max-height: fit-content; 
+        flex-direction: row;
+        
+        margin: 5% 10%;
+      }
+  
+     
+    
+      
+      .banner-caption h3 {
+          
+        
+        min-height: 96px;
+        max-width: 34vw;
+        min-width: 300px;
+         margin-bottom: 0%;
+        /* Header/2 */
+        
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        /* or 48px */
+        
+        text-align: left;
+        /* primary/black */
+        
+        color: #f5eef5;
+    
+    }
+      
+      h3 .h-red {
+        color: rgba(255, 217, 0, 0.774);
+        background-image: linear-gradient(90deg, #ff0303, gold 40%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 1;
+      }
+      
+     
+      .banner-caption p {
+        
+        max-width: 25vw;
+        min-width: 250px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 24px */
+        text-align: left;
+        
+        /* black/shade 1 */
+        
+        color: #ffffff;
+      
+      }
+      
+      .banner-left-space img {
+        width: 300px;
+        margin: 0%;
+        
+    }
+   
+
+      .banner-caption button {
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 32px;
+      gap: 10px;
+      
+      width: 132px;
+      height: 44px;
+      
+      /* primary/red */
+      
+      background: #DC2326;
+      border-radius: 8px;
+      
+      
+      }
+      
+      .banner-caption a {
+        text-decoration: none;
+        width: 68px;
+      height: 24px;
+      
+      /* button text */
+      
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+      /* identical to box height, or 24px */
+      
+      display: flex;
+      align-items: center;
+      text-align: center;
+      
+      /* white/shade 1 */
+      
+      color: #FFFFFF;
+      }
+    

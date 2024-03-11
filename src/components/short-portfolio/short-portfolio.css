@@ -1,0 +1,36 @@
+.services {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5%;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.services video {
+    max-height: 200px;
+    max-width: 350px;
+    min-width: 300px;
+    margin: 2%;
+    box-shadow: 5px 3px 5px rgb(235, 204, 235);
+    border-radius: 10px;
+
+}
+
+.portfolio-component {
+    display: block;
+    margin-bottom: 3%;
+}
+
+.portfolio-component .navbar__link {
+    cursor: pointer;
+    color: #3c268a;
+    text-decoration: none;
+    font-size: larger;
+    padding: 1% 2%;
+    background-color: #dcd8f0;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    
+  }
