@@ -43,7 +43,7 @@ function About () {
       </video>
       </div>
 
-      <div className='body'>
+      <div id='about' className='body'>
         <h2>Valor Motion Pictures</h2>
         <p>At Valor's picture, our mission is to craft cinematic experiences that transcend time and space. With a keen eye for detail and a deep passion for storytelling, we specialize in capturing the essence of every moment, weaving together visuals and emotions that resonate with our clients and their audiences alike.
 
