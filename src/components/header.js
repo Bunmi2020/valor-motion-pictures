@@ -63,7 +63,7 @@ function Header() {
       <p id="home" style={{ display: 'none' }}></p>
       <div className="App-nav">
         <div className="App-logo">
-          <NavLink to="/" className="navbar__link" onClick={handleToTop}>
+          <NavLink to="/" className="navbar__link" onClick={handleNavLinkClick}>
             <img src={logo} alt="Valor Pictures" />
           </NavLink>
         </div>
