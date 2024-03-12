@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/valor-motion-pictures/static/css/main.f1f5f8a4.css",
-    "main.js": "/valor-motion-pictures/static/js/main.88aed237.js",
+    "main.css": "/valor-motion-pictures/static/css/main.669024de.css",
+    "main.js": "/valor-motion-pictures/static/js/main.989d5aba.js",
     "static/js/453.f24def42.chunk.js": "/valor-motion-pictures/static/js/453.f24def42.chunk.js",
+    "static/media/Snippet_video.mp4": "/valor-motion-pictures/static/media/Snippet_video.e85f8e8cac51b6670ae9.mp4",
+    "static/media/Snippet_about.mp4": "/valor-motion-pictures/static/media/Snippet_about.b835b223d012f58b18ad.mp4",
     "static/media/IMG_3749.jpg": "/valor-motion-pictures/static/media/IMG_3749.6ab00e81c6289e8d8119.jpg",
     "static/media/IMG_3725.jpg": "/valor-motion-pictures/static/media/IMG_3725.14a333c5112aff824b47.jpg",
     "static/media/IMG_3883.jpg": "/valor-motion-pictures/static/media/IMG_3883.962abc7f4ce20e973af6.jpg",
@@ -26,12 +28,12 @@
     "static/media/instagram1.png": "/valor-motion-pictures/static/media/instagram1.8e408da00539cdef4629.png",
     "static/media/facebook1.png": "/valor-motion-pictures/static/media/facebook1.6d8c926db436eb1c4506.png",
     "index.html": "/valor-motion-pictures/index.html",
-    "main.f1f5f8a4.css.map": "/valor-motion-pictures/static/css/main.f1f5f8a4.css.map",
-    "main.88aed237.js.map": "/valor-motion-pictures/static/js/main.88aed237.js.map",
+    "main.669024de.css.map": "/valor-motion-pictures/static/css/main.669024de.css.map",
+    "main.989d5aba.js.map": "/valor-motion-pictures/static/js/main.989d5aba.js.map",
     "453.f24def42.chunk.js.map": "/valor-motion-pictures/static/js/453.f24def42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1f5f8a4.css",
-    "static/js/main.88aed237.js"
+    "static/css/main.669024de.css",
+    "static/js/main.989d5aba.js"
   ]
 }
