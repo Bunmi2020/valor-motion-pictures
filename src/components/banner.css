@@ -3,7 +3,7 @@
     margin: auto;
     padding: 0%;
     
-    background: #030318;
+    background: #161c2b;
     filter: brightness(1);
     width: 100%;
     min-height: 450px;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
     margin: auto;
     margin-bottom: 5%;
-    background: linear-gradient(180deg, #030318,#1e1e44);
+    background: linear-gradient(180deg, #161c2b,#242b3d);
     border-radius: 10px;
     }
 

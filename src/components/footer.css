@@ -12,8 +12,7 @@
     color: #e0dcdc;
     opacity: 0.9;
     /* primary/blue */
-
-    background: linear-gradient(180deg, #1e1e44, #030318);
+    background: #161c2b;
 }
 
 .footer-company li, .footer-services li {

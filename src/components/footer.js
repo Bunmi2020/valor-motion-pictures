@@ -80,14 +80,15 @@ const Footer = () => {
             <HashLink to="/video#weddings">Wedding</HashLink>
           </li>
           <li>
+            <HashLink to="/video#proposals">Proposals</HashLink>
+          </li>
+          <li>
             <HashLink to="/video#pre-weddings">Pre Weddings</HashLink>
           </li>
           <li>
             <HashLink to="/video#birthdays">Birthdays</HashLink>
           </li>
-          <li>
-            <HashLink to="/video#proposals">Proposals</HashLink>
-          </li>
+          
           <li>
             <HashLink to="/video#ads">Advertisement</HashLink>
           </li>

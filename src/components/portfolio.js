@@ -22,11 +22,14 @@ import Weddings from './short-portfolio/wedding';
          
             <ul className='categories'>
             
+                <li><button onClick={() => setIndex(4)}>Weddings</button></li>
+                <li><button onClick={() => setIndex(3)}>Proposals</button></li>
+                <li><button onClick={() => setIndex(2)}>Pre Wedding </button></li>
+                
                 <li><button onClick={() => setIndex(0)}>Birthdays</button></li>
                 <li><button onClick={() => setIndex(1)}>Ads</button></li>
-                <li><button onClick={() => setIndex(2)}>Pre Wedding </button></li>
-                <li><button onClick={() => setIndex(3)}>Proposals</button></li>
-                <li><button onClick={() => setIndex(4)}>Weddings</button></li>
+                
+                
 
             </ul>
 

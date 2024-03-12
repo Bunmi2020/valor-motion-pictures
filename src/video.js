@@ -32,7 +32,7 @@ function Video () {
     <div id= "app" className="video-app">
   
       <div id= " " className="Top-section">
-       <video alt='Valor Motion Pictures' className='videoback' autoPlay muted loop playsinline > 
+       <video alt='Valor Motion Pictures' className='videoback' autoPlay muted loop playsinline controls> 
               <source src={backg} type="video/mp4" />
               Your browser does not support the video tag.
           </video>
