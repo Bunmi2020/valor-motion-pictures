@@ -12,31 +12,17 @@ function Proposals () {
 
         <div id= "services" className="services">
         
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-                            
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-                  
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>             
+            <iframe title='snippet'  src="https://drive.google.com/file/d/1UilExfteoPwiZt1vyDnK3y-NG4rcRWH_/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+              
+              <iframe title='snippet'  src="https://drive.google.com/file/d/1UplhaR6_gzyDHQOOQGKZkW72vl_IHioj/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+                
+              <iframe title='snippet'  src="https://drive.google.com/file/d/1Us49Uwe4yMF6vcUsmFCexleFvib_JRBZ/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+                
+              <iframe title='snippet'  src="https://drive.google.com/file/d/1UtZ9opUgBpyqtcn0HoFTaLhgHBNyVjLe/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+                
+              <iframe title='snippet' src="https://drive.google.com/file/d/1SnPOXhPatg7wQ-FzfMChYq_A6O3oaCrr/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+                
+                   
              
         </div>  
 

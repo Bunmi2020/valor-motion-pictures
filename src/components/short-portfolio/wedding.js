@@ -11,32 +11,16 @@ function Weddings () {
 
         <div id= "services" className="services">
                         
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-                            
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-                  
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-
-        <video alt='Valor Pictures' className='camera' controls muted> 
-          <source src="" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>             
-             
+          <iframe title='snippet'  src="https://drive.google.com/file/d/1SsJbazr7_-BggCMGmE0GijiPSMHopAc2/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+              
+          <iframe title='snippet'  src="https://drive.google.com/file/d/1T222N8HqyhpirMfXnkx34yuDH_3LGKpe/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+                
+          <iframe title='snippet'  src="https://drive.google.com/file/d/1T5UQ9iXQPHBqBgbBf4_oARWSOmSfXJGM/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+            
+          <iframe title='snippet'  src="https://drive.google.com/file/d/1T6CyJXLXXS-FM2ZW6QWh2RnOQh9MJ8wl/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+            
+          <iframe title='snippet' src="https://drive.google.com/file/d/1TCb4GlpZ3OIxuzyX6J9AX0OdiTnsLig-/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+                
                 
         </div>  
 

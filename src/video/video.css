@@ -42,7 +42,7 @@
 
 
 
-.photos video {
+.photos iframe {
     max-height: 200px;
     max-width: 350px;
     min-width: 250px;
@@ -54,7 +54,7 @@
 
 @media (max-width: 450px) {
 
-    .photos video {
+    .photos iframe {
         max-height: 200px;
         width: 200px;
        
@@ -112,7 +112,7 @@
     display: block;
     background: #181618;
     opacity: 1;
-    
+    margin: 2% 0%;
     z-index: 9;
  
         }

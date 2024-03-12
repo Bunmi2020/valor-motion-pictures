@@ -8,7 +8,8 @@ import Birthdays from './birthday';
 import ProWedding from './prewedding';
 import Proposal from './proposal';
 import Funerals from './funeral';
-
+import backg from  '../media/video/Snippet_video.mp4';
+import Others from './others';
 function Video () {
   
   const [isVisible, setIsVisible] = useState(true);
@@ -31,10 +32,10 @@ function Video () {
     <div id= "app" className="video-app">
   
       <div id= " " className="Top-section">
-       <video alt='Valor Pictures' className='videoback' autoPlay loop muted> 
-              <source src="" type="video/mp4" />
+       <video alt='Valor Motion Pictures' className='videoback' autoPlay muted loop> 
+              <source src={backg} type="video/mp4" />
               Your browser does not support the video tag.
-      </video>
+          </video>
       </div>
 
       <div className="up-cursor" id='myBtn'><button style={{ maxWidth: '150px', display: isVisible ? 'none' : 'flex', position: 'fixed',flexDirection: 'column',justifyContent: 'center', zIndex: 9, boxShadow: '3px, 2px, gray',
@@ -61,6 +62,7 @@ function Video () {
             <Birthdays />
             <ProWedding />
             <Proposal />
+            <Others />
             <Funerals />
               
 

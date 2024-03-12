@@ -11,14 +11,10 @@ function Funerals () {
     <div id='funerals' className='photos'>
               <h2>Funerals</h2>
               <span className='divider' style={{}}> </span>
-              <video alt='Valor Pictures' className='camera' controls muted> 
-              <source src="" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <video alt='Valor Pictures' className='camera' controls muted> 
-              <source src="" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+
+              <iframe title='full video' src="https://drive.google.com/file/d/1QBu556UUVLjXZMyLQGX21zinGk9ynIsZ/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>
+              <iframe title='full video' src="https://drive.google.com/file/d/1Rdj3eGxezKa9mMie2FeWWQTki-mqcAHE/preview" muted alt='Valor Pictures' className='camera'>Your browser does not support the video tag.</iframe>    
+                                  
            
     </div>
   )

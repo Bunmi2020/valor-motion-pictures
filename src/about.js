@@ -4,7 +4,7 @@ import './about.css';
 
 import tiktok from './media/image/facebook1.png';
 import instagram from './media/image/instagram1.png';
-
+import backg from  './media/video/Snippet_about.mp4';
 function About () {
   
   const [isVisible, setIsVisible] = useState(true);
@@ -37,10 +37,11 @@ function About () {
         padding: '5px 12px'}}><a href="https://wa.me/+2348135330335" target="_blank" rel="noreferrer" style={{color: 'white', padding: '10px', fontSize: '20px'}}>Let's talk</a></button>
 
       </div>
-        <video alt='Valor Motion Pictures' className='about-videoback' autoPlay loop muted> 
-              <source src="" type="video/mp4" />
+     
+      <video alt='Valor Motion Pictures' className='about-videoback' autoPlay muted loop> 
+              <source src={backg} type="video/mp4" />
               Your browser does not support the video tag.
-      </video>
+          </video>
       </div>
 
       <div id='about' className='body'>
