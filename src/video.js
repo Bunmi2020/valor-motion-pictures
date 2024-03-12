@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 
 import './video.css';
 
-import Ads from './ads';
-import Weddings from './wedding';
-import Birthdays from './birthday';
-import ProWedding from './prewedding';
-import Proposal from './proposal';
-import Funerals from './funeral';
-import backg from  '../media/video/Snippet_video.mp4';
-import Others from './others';
+import Ads from './video/ads';
+import Weddings from './video/wedding';
+import Birthdays from './video/birthday';
+import PreWedding from './video/prewedding';
+import Proposal from './video/proposal';
+import Funerals from './video/funeral';
+import backg from  './media/video/Snippet_video.mp4';
+import Others from './video/others';
 function Video () {
   
   const [isVisible, setIsVisible] = useState(true);
@@ -32,7 +32,7 @@ function Video () {
     <div id= "app" className="video-app">
   
       <div id= " " className="Top-section">
-       <video alt='Valor Motion Pictures' className='videoback' autoPlay muted loop> 
+       <video alt='Valor Motion Pictures' className='videoback' autoPlay muted loop playsinline > 
               <source src={backg} type="video/mp4" />
               Your browser does not support the video tag.
           </video>
@@ -57,15 +57,15 @@ function Video () {
         </div>
 
         <div >
-            <Ads />
             <Weddings />
-            <Birthdays />
-            <ProWedding />
             <Proposal />
-            <Others />
+            
+            <PreWedding />
+            <Birthdays />
+            <Ads />
             <Funerals />
-              
-
+            <Others />
+        
         </div>
 
       </div>

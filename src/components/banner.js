@@ -9,8 +9,8 @@ function Banner () {
       <div className='inner-banner'>
           
         <div className="banner-caption" >
-        <h3>Documenting your memories <br/><span className='h-red'>in the most amazing way</span></h3>
-                    <p>...not just glamourous, but classy</p>
+        <h3>Telling ordinary stories <br/><span className='h-red'>in an extraordinary way</span></h3>
+                    <p>...with a touch of class & glamour</p>
              <button><a href="https://wa.me/+2348135330335" target="_blank" rel="noreferrer" >Let's talk</a></button>
 
         </div>

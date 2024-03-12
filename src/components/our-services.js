@@ -5,7 +5,7 @@ import service2 from '../media/image/categories/ads.jpg';
 import service3 from '../media/image/categories/pre-wedding.jpg';
 import service4 from '../media/image/categories/proposal.jpg';
 import service5 from '../media/image/categories/wedding.jpg';
-
+import service6 from '../media/image/categories/filmproduction.jpg';
 
 function Services () {
   
@@ -18,6 +18,25 @@ function Services () {
 
         <div id= "services" className="services">
                        
+          <div id= "film production" className="service">
+            
+            <img src={service6} alt='Valor Motion Pictures' className='camera'/>
+            <h3>Film Production</h3>
+            
+            </div>
+            <div id= "wedding" className="service">
+            
+            <img src={service5} alt='Valor Motion Pictures' className='camera'/>
+            <h3>Wedding</h3>
+                      
+            </div>
+            
+            <div id= "proposal" className="service">
+            
+            <img src={service4} alt='Valor Motion Pictures' className='camera'/>
+            <h3>Proposals</h3>
+                      
+            </div>
 
             <div id= "pre-wedding" className="service">
             
@@ -33,26 +52,17 @@ function Services () {
             
             </div>
 
-            <div id= "proposal" className="service">
             
-            <img src={service4} alt='Valor Motion Pictures' className='camera'/>
-            <h3>Proposals</h3>
-                      
-            </div>
 
-            <div id= "documentary" className="service">
+            <div id= "ads" className="service">
             
             <img src={service2} alt='Valor Motion Pictures' className='camera'/>
             <h3>Ads</h3>
             
             </div>
 
-            <div id= "wedding" className="service">
             
-            <img src={service5} alt='Valor Motion Pictures' className='camera'/>
-            <h3>Wedding Videos</h3>
-                      
-            </div>
+            
             
         </div>
   

@@ -34,6 +34,12 @@
     max-width: 25vw;
 }
 
+.about-image {
+    margin: auto;
+    margin-left: 0%;
+    margin-right: 5.1%;
+}
+
 .about-socials img {
     width: 35px;
 }

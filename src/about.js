@@ -38,7 +38,7 @@ function About () {
 
       </div>
      
-      <video alt='Valor Motion Pictures' className='about-videoback' autoPlay muted loop> 
+      <video alt='Valor Motion Pictures' className='about-videoback' autoPlay muted loop playsinline > 
               <source src={backg} type="video/mp4" />
               Your browser does not support the video tag.
           </video>
@@ -60,8 +60,8 @@ function About () {
 <p>Join us as we create lasting memories through captivating visuals and heartfelt connections. Let us turn your moments into cherished memories.</p>
       
     <div className="about-socials">
-                    <a href="https://www.instagram.com/valormotion_pictures?" target="_blank" rel="noreferrer"><img src={instagram} alt="Instagram"/></a>
-                    <a href=" " target="_blank" rel="noreferrer"><img src={tiktok} alt="TikTok"/></a>
+        <a href="https://www.instagram.com/valormotion_pictures?" target="_blank" rel="noreferrer"><img src={instagram} alt="Instagram"/></a>
+         <a href=" " target="_blank" rel="noreferrer"><img src={tiktok} alt="TikTok"/></a>
                      
       </div>
       

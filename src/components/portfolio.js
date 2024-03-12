@@ -18,7 +18,7 @@ import Weddings from './short-portfolio/wedding';
         return (
          <div className='Portfolio'>
 
-            <h2>Portfolio</h2>
+            <h2>Recent Projects</h2>
          
             <ul className='categories'>
             

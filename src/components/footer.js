@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="footer-company">
           <h2>Company</h2>
           <li>
-            <NavLink to="/about#about" className="navbar__a" onClick={handleToTop}>
+            <NavLink to="/about" className="navbar__a" onClick={handleToTop}>
               About Us
             </NavLink>
           </li>

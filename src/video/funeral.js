@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './video.css';
+import '../video.css';
 
 function Funerals () {
   

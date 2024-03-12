@@ -4,7 +4,7 @@ import Home from './home';
 import About from './about';
 import Contact from './contact';
 import Photos from './photos';
-import Video from './video/video';
+import Video from './video';
 import Header from './components/header';
 import Footer from './components/footer';
 function App() {

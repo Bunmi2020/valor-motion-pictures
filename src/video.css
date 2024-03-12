@@ -92,7 +92,21 @@
     color: rgba(248, 252, 0, 0.993);;
     margin: auto;
     background-color: rgba(70, 67, 71, 0.55);
+    border-radius: 10px;
+    margin-top: 7%;
 }
+
+
+
+@media (max-width: 650px) {
+
+    .VdBody {
+        margin-top: 10%;
+    }
+    
+    
+        
+    }
 
 .videoback {
     position: fixed;
@@ -116,3 +130,14 @@
     z-index: 9;
  
         }
+
+
+        @media (max-width: 650px) {
+
+            .VdBody {
+                margin-top: 10%;
+            }
+            
+            
+                
+            }

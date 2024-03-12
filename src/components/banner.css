@@ -33,9 +33,6 @@
         .App-banner .banner-left-space { 
           
           margin: auto;
-          max-width: 35%;
-          margin-left: 0%;
-          margin-right: 5.2%;
           min-height: max-content;
          
         }
@@ -52,7 +49,7 @@
         max-height: fit-content; 
         flex-direction: row;
         
-        margin: 5% 10%;
+        margin: 5% 7%;
       }
   
      
