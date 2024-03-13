@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <div className="footer" id="footer">
       <div className="footer-conclusion">
-        <img src={logo} alt="Mohrefring-NG" style={{ minWidth: '10vw', maxWidth: '100px', margin: 'auto 0%' }} />
+        <img src={logo} alt="Valor" style={{ minWidth: '10vw', maxWidth: '100px', margin: 'auto 0%' }} />
       </div>
 
       <div className="footer-body">

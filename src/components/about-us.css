@@ -27,11 +27,12 @@
 }
 
 .about-image img {
-    min-width: 300px;
+    
     display: flex;
     justify-content: flex-start;
     margin: auto;
-    max-width: 25vw;
+    max-width: 100%;
+    height: auto;
 }
 
 
