@@ -30,9 +30,24 @@
     min-width: 300px;
     display: flex;
     justify-content: flex-start;
-    
+    margin: auto;
     max-width: 25vw;
 }
+
+
+@media (max-width: 650px) {
+
+    .about-image img {
+      margin-left: 0%;
+    }
+
+    .about-image {
+        margin: auto;
+        margin-left: 0%;
+    margin-right: 0%;
+    }
+}
+
 
 .about-image {
     margin: auto;
@@ -43,3 +58,5 @@
 .about-socials img {
     width: 35px;
 }
+
+

@@ -38,7 +38,7 @@ function About () {
 
       </div>
      
-      <video alt='Valor Motion Pictures' className='about-videoback' autoPlay muted loop playsinline controls> 
+      <video alt='Valor Motion Pictures' className='about-videoback' autoPlay muted loop > 
               <source src={backg} type="video/mp4" />
               Your browser does not support the video tag.
           </video>

@@ -11,18 +11,18 @@ function App() {
   return (
     <div className="App" id=' '> 
       <Header />
-      <Routes forceRefresh>
+      <Routes >
 
-          <Route path="/" element={<Home />} forceRefresh/>
+          <Route path="/" element={<Home />} />
           
           
-          <Route path="/about" element={<About />} forceRefresh/>
+          <Route path="/about" element={<About />} />
            
-          <Route path="/contact" element={<Contact />} forceRefresh/>
+          <Route path="/contact" element={<Contact />} />
           
-          <Route path="/photos" element={<Photos />} forceRefresh/>
+          <Route path="/photos" element={<Photos />} />
            
-          <Route path="/video" element={<Video />} forceRefresh/>
+          <Route path="/video" element={<Video />} />
           
       </Routes>
 
