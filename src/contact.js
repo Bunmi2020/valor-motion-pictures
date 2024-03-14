@@ -19,6 +19,7 @@ function Contact () {
       </div>
       <div className='contact-body'>
         <h2>Contact Valor Motion Pictures</h2>
+        <p>Drop your email and message below and we would get back to you as soon as possible</p>
         <div className='contact' id='contact'>
         
                <ContactForm /> 

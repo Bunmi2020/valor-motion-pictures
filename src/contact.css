@@ -11,10 +11,14 @@
 .contact-body {
     background-color: rgba(70, 67, 71, 0.55);
     max-width: 80%;
-    margin:  5% auto;
+    margin:  3% auto;
     padding: 1%;
     color: #FFFFFF;
     border-radius: 10px;
+}
+
+.contact-body p {
+    color: #c8c9db;
 }
 
 .about-videoback {
@@ -89,7 +93,7 @@
     @media  (min-width: 750px) {
     
         .contact {
-            padding: 5vw 3vw;
+            padding: 2vw 1vw;
             margin: auto;
             }
     
