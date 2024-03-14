@@ -1,27 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba414626.css",
-    "main.js": "/static/js/main.7a114739.js",
+    "main.css": "/static/css/main.bbbc7762.css",
+    "main.js": "/static/js/main.915f1aea.js",
     "static/js/453.f24def42.chunk.js": "/static/js/453.f24def42.chunk.js",
-    "static/media/Snippet_video.mp4": "/static/media/Snippet_video.e85f8e8cac51b6670ae9.mp4",
-    "static/media/Snippet_about.mp4": "/static/media/Snippet_about.b835b223d012f58b18ad.mp4",
-    "static/media/IMG_3749.jpg": "/static/media/IMG_3749.6ab00e81c6289e8d8119.jpg",
-    "static/media/IMG_3725.jpg": "/static/media/IMG_3725.14a333c5112aff824b47.jpg",
-    "static/media/IMG_3883.jpg": "/static/media/IMG_3883.962abc7f4ce20e973af6.jpg",
     "static/media/birthdays.jpg": "/static/media/birthdays.99751cace9df7ed956ab.jpg",
-    "static/media/IMG_3828.jpg": "/static/media/IMG_3828.2285747dbf2b541405d1.jpg",
     "static/media/pre-wedding.jpg": "/static/media/pre-wedding.1ceeb1e65d0cecfe941d.jpg",
-    "static/media/AAP_5050.jpg": "/static/media/AAP_5050.3024a1ad339b7b53c5c8.jpg",
-    "static/media/IMG_4165.jpg": "/static/media/IMG_4165.175de3c659744ddb84d6.jpg",
-    "static/media/AAP_5330.jpg": "/static/media/AAP_5330.bac2bd086ed367e929bd.jpg",
-    "static/media/VAL_7331.jpg": "/static/media/VAL_7331.9433e55d450bb17f380d.jpg",
-    "static/media/VAL_7358.jpg": "/static/media/VAL_7358.1bcb4ce64b14cb767166.jpg",
     "static/media/ads.jpg": "/static/media/ads.1bcb4ce64b14cb767166.jpg",
-    "static/media/IMG_3807a.jpg": "/static/media/IMG_3807a.1b0ad1983c7a64d621a3.jpg",
     "static/media/proposal.jpg": "/static/media/proposal.8d8ff6560ee9517d6d91.jpg",
-    "static/media/DSC_1865.jpg": "/static/media/DSC_1865.622cf4004c249af8fdac.jpg",
+    "static/media/camera-7500550.jpg": "/static/media/camera-7500550.37fa9b9f036c0837e1ff.jpg",
     "static/media/wedding.jpg": "/static/media/wedding.41ea05a08e56240ec477.jpg",
-    "static/media/DSC_1820.jpg": "/static/media/DSC_1820.d5e8f00aaab0a31fd249.jpg",
     "static/media/logo.png": "/static/media/logo.2a55cba634b0ae38c0be.png",
     "static/media/camera.png": "/static/media/camera.0260249bffdbfc993bce.png",
     "static/media/image_about.png": "/static/media/image_about.a56e8945338f520979a2.png",
@@ -29,12 +16,12 @@
     "static/media/filmproduction.jpg": "/static/media/filmproduction.611673bac6743ce3956a.jpg",
     "static/media/facebook1.png": "/static/media/facebook1.6d8c926db436eb1c4506.png",
     "index.html": "/index.html",
-    "main.ba414626.css.map": "/static/css/main.ba414626.css.map",
-    "main.7a114739.js.map": "/static/js/main.7a114739.js.map",
+    "main.bbbc7762.css.map": "/static/css/main.bbbc7762.css.map",
+    "main.915f1aea.js.map": "/static/js/main.915f1aea.js.map",
     "453.f24def42.chunk.js.map": "/static/js/453.f24def42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba414626.css",
-    "static/js/main.7a114739.js"
+    "static/css/main.bbbc7762.css",
+    "static/js/main.915f1aea.js"
   ]
 }
