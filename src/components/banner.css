@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: auto;
     padding: 0%;
-    
+    padding: 10px;
     background: #161c2b;
     filter: brightness(1);
     width: 100%;

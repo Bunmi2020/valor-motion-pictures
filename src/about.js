@@ -4,7 +4,7 @@ import './about.css';
 
 import tiktok from './media/image/facebook1.png';
 import instagram from './media/image/instagram1.png';
-import backg from  './media/video/Snippet_about.mp4';
+import backg from  './media/image/camera-7500550.jpg';
 function About () {
   
   const [isVisible, setIsVisible] = useState(true);
@@ -38,10 +38,8 @@ function About () {
 
       </div>
      
-      <video alt='Valor Motion Pictures' className='about-videoback' autoPlay muted loop > 
-              <source src={backg} type="video/mp4" />
-              Your browser does not support the video tag.
-          </video>
+     
+          <img src={backg} alt='Valor Motion Pictures' className='about-videoback'/>
       </div>
 
       <div id='about' className='body'>

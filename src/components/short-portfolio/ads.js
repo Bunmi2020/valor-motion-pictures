@@ -1,6 +1,5 @@
 import './short-portfolio.css';
 import React from 'react';
-import { HashLink } from 'react-router-hash-link';
 
 
 function Ads () {
@@ -24,7 +23,7 @@ function Ads () {
              
       </div>   
 
-      <HashLink to="/video#ads" className="navbar__link">View More</HashLink>
+      <a href="https://drive.google.com/drive/folders/1DDjZkKc6yHVbaVda34r0ApNz5-TMR5N_?usp=drive_link" className="navbar__link">View More</a>
     </div>  
     );
   }

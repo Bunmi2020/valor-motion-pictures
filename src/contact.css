@@ -5,5 +5,256 @@
 .contact-app {
     width: 100%;
     margin: auto;
-    margin-top: 7%;
+    margin-top: 0%;
 }
+
+.contact-body {
+    background-color: rgba(70, 67, 71, 0.55);
+    max-width: 80%;
+    margin:  5% auto;
+    padding: 1%;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.about-videoback {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    gap: 54px;
+    
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    
+    }
+    
+    .contact-icon {
+        padding: 8px;
+    gap: 10px;
+    
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 32px 72px rgba(2, 195, 154, 0.25);
+    border-radius: 124px;
+       
+    
+    }
+    
+    .contact-heading {
+    max-width: 306px;
+    height: 36px;
+    color: #262C71;
+    
+    /* Header/3 */
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    }
+      
+    
+      .contact-text {
+        width: 70%;
+        text-align: left;
+      }
+    
+ 
+    
+    #mobile {
+        display: none;
+    }
+    
+    
+    
+    
+    @media  (min-width: 750px) {
+    
+        .contact {
+            padding: 5vw 3vw;
+            margin: auto;
+            }
+    
+     
+        .label { 
+            min-width: 400px;
+        } 
+    
+        .input {
+            width: 400px;
+        }
+    
+    }
+    
+    
+    @media  (max-width: 750px) {
+    
+      
+        .label { 
+            width: 300px;
+        } 
+    
+        .input {
+            width: 250px;
+        }
+    
+    }
+    
+    
+     .label {
+        display: block;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: left;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 4px;
+        min-width: 275px;
+        max-width: 410px;
+        height: 50px;
+    
+    }
+    
+     .input {
+        box-sizing: border-box;
+    
+    /* Auto layout */
+    
+    
+    padding: 16px 30px;
+    gap: 8px;
+    max-width: 400px;
+    min-width: 270px;
+    height: 50px;
+    text-align: start;
+    /* Whites/plain white */
+    
+    background: #FFFFFF;
+    /* light accent/1 */
+    
+    border: 1px solid #BCBED7;
+    border-radius: 8px;
+    
+    }
+    
+    
+    
+   .message {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 4px;
+        min-width: 250px;
+        height: auto;
+        font-family: 'DM Sans';
+        font-style: normal;
+        
+        font-size: 18px;
+        line-height: 32px;
+    
+    }
+    
+    
+    .button-submit {
+       
+        align-items: center;
+        padding: 10px 32px;
+        gap: 10px;
+       
+        width: 145px;
+        height: 44px;
+        border-radius: 8px;
+    
+        color: #F0FAFE;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        min-width: 275px;
+        max-width: 552px;
+        height: 50px;
+        margin: auto;
+        margin-top: 40%;
+        /* primary/blue */
+    
+        background: #262C71;
+        box-shadow: 0px 32px 72px rgba(6, 83, 115, 0.08);
+        border-radius: 8px;
+    }
+    
+    
+    @media  (max-width: 650px) {
+    
+        .contact {
+        padding: 5vw 3vw;
+        margin: auto;
+        }
+    
+    }
+    
+    
+    .sentNotification {
+        min-height: 70px;
+        font-family: 'DM Sans';
+        font-style:italic;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 12px;
+        animation: fadeout 3s; 
+        
+    }
+    
+    input:valid + span::after {
+        position: absolute;
+        content: "√";
+        padding-left: 5px;
+        color: #07e207;
+    }
+    
+    /* input:invalid + span::after {
+        position: absolute;
+        content: "X";
+        padding-left: 5px;
+        color: #e22107;
+    } */
+    
+    
+    @keyframes fadeout { 
+        0% {  opacity: 1; } 
+        50% {  opacity: 0.5; } 
+        100% {  opacity: 0; } 
+    }
+    
+    .label i {
+        position: absolute;
+        color: grey;
+    }
+    
+    .icon {
+        padding: 20px 10px;
+        width: 40px;
+        color: grey;
+    }

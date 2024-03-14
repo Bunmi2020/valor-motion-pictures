@@ -85,16 +85,7 @@ function Header() {
                 About Us
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/video" className="navbar__link" onClick={handleToTop}>
-                Videos
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/photos" className="navbar__link" onClick={handleToTop}>
-                Photos
-              </NavLink>
-            </li>
+            
             <li>
               <NavLink to="/contact" className="navbar__link" onClick={handleToTop}>
                 Contact
@@ -113,17 +104,7 @@ function Header() {
             About Us
           </NavLink>
         </li>
-        <li>
-          <NavLink to="/video" className="navbar__link" onClick={handleNavLinkClick}>
-            Videos
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/photos" className="navbar__link" onClick={handleNavLinkClick}>
-            Photos
-          </NavLink>
-        </li>
-        <li>
+                <li>
           <NavLink to="/contact" className="navbar__link" onClick={handleNavLinkClick}>
             Contact
           </NavLink>
