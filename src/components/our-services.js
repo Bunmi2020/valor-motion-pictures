@@ -27,7 +27,7 @@ function Services () {
             <div id= "wedding" className="service">
             
             <img src={service5} alt='Valor Motion Pictures' className='camera'/>
-            <h3>Wedding</h3>
+            <h3>Weddings</h3>
                       
             </div>
             
