@@ -23,7 +23,7 @@ function Ads () {
              
       </div>   
 
-      <a href="https://drive.google.com/drive/folders/1DDjZkKc6yHVbaVda34r0ApNz5-TMR5N_?usp=drive_link" className="navbar__link">View More</a>
+      <a href="https://drive.google.com/drive/folders/1CEgP0mpiEs14B_K1gWsiBI01uOlt2KWJ?usp=drive_link" className="navbar__link" target="_blank" rel="noreferrer">View More</a>
     </div>  
     );
   }

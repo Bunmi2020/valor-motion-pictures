@@ -24,7 +24,7 @@ function Birthdays () {
                        
         </div>
 
-        <a href="https://drive.google.com/drive/folders/1Ma58bSs-eXEUAeXv4lypMadTCqXSRG9I?usp=drive_link" className="navbar__link">View More</a>
+        <a href="https://drive.google.com/drive/folders/1CEzqTugI0_17kqxxEyBy6sYI8MSyntPp?usp=drive_link" className="navbar__link" target="_blank" rel="noreferrer">View More</a>
 
       </div>   
                 );

@@ -67,25 +67,25 @@ const Footer = () => {
         </div>
 
         <div className="footer-services">
-          <h2>Service</h2>
+          <h2>Recent Projects</h2>
           <li>
-            <a href="https://drive.google.com/drive/folders/1CRF9xxLTk2J0RCo_L9ZViwLYq9EuvJuC?usp=drive_link">Wedding</a>
+            <a href="https://drive.google.com/drive/folders/1CRF9xxLTk2J0RCo_L9ZViwLYq9EuvJuC?usp=drive_link" target="_blank" rel="noreferrer">Wedding</a>
           </li>
           <li>
-            <a href="https://drive.google.com/drive/folders/1MHfYCjC8M4EqO_lcos9WA1ZQaslqpIkW?usp=drive_link">Proposals</a>
+            <a href="https://drive.google.com/drive/folders/1CIwnQU4hyYdZzL59QshpHLZLiN2iqAMn?usp=drive_link" target="_blank" rel="noreferrer">Proposals</a>
           </li>
           <li>
-            <a href="https://drive.google.com/drive/folders/1MHzCzCZgqDQTlLjzgM6eo50tffkRUJOA?usp=drive_link">Pre Weddings</a>
+            <a href="https://drive.google.com/drive/folders/1CIQ1ty0Znlj04eIw7PoLCZ1Pez8NBVfU?usp=drive_link" target="_blank" rel="noreferrer">Pre Weddings</a>
           </li>
           <li>
-            <a href="https://drive.google.com/drive/folders/1Ma58bSs-eXEUAeXv4lypMadTCqXSRG9I?usp=drive_link">Birthdays</a>
+            <a href="https://drive.google.com/drive/folders/1CEzqTugI0_17kqxxEyBy6sYI8MSyntPp?usp=drive_link" target="_blank" rel="noreferrer">Birthdays</a>
           </li>
           
           <li>
-            <a href="https://drive.google.com/drive/folders/1DDjZkKc6yHVbaVda34r0ApNz5-TMR5N_?usp=drive_link">Advertisement</a>
+            <a href="https://drive.google.com/drive/folders/1CEgP0mpiEs14B_K1gWsiBI01uOlt2KWJ?usp=drive_link" target="_blank" rel="noreferrer">Advertisement</a>
           </li>
           <li>
-            <a href="https://drive.google.com/drive/folders/1CZVDzlWKZkrcFToVFnW83z47Q2un5uy4?usp=drive_link">Documentaries</a>
+            <a href="https://drive.google.com/drive/folders/1CZVDzlWKZkrcFToVFnW83z47Q2un5uy4?usp=drive_link" target="_blank" rel="noreferrer">Others</a>
           </li>
         </div>
       </div>

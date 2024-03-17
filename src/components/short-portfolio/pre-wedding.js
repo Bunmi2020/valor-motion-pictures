@@ -24,7 +24,7 @@ function PreWedding () {
             
                                   
       </div> 
-      <a href="https://drive.google.com/drive/folders/1MHzCzCZgqDQTlLjzgM6eo50tffkRUJOA?usp=drive_link" className="navbar__link">View More</a>
+      <a href="https://drive.google.com/drive/folders/1CIQ1ty0Znlj04eIw7PoLCZ1Pez8NBVfU?usp=drive_link" className="navbar__link" target="_blank" rel="noreferrer">View More</a>
 
     </div>  
     );

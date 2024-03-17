@@ -22,7 +22,7 @@ function Weddings () {
                 
                 
         </div>  
-        <a href="https://drive.google.com/drive/folders/1CRF9xxLTk2J0RCo_L9ZViwLYq9EuvJuC?usp=drive_link" className="navbar__link">View More</a>
+        <a href="https://drive.google.com/drive/folders/1CRF9xxLTk2J0RCo_L9ZViwLYq9EuvJuC?usp=drive_link" className="navbar__link" target="_blank" rel="noreferrer">View More</a>
       </div>  
     );
   }

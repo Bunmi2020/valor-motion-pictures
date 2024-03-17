@@ -25,7 +25,7 @@ function Proposals () {
              
         </div>  
 
-        <a href="https://drive.google.com/drive/folders/1MHfYCjC8M4EqO_lcos9WA1ZQaslqpIkW?usp=drive_link" className="navbar__link">View More</a>   
+        <a href="https://drive.google.com/drive/folders/1CIwnQU4hyYdZzL59QshpHLZLiN2iqAMn?usp=drive_link" className="navbar__link" target="_blank" rel="noreferrer">View More</a>   
       </div>  
     );
   }
