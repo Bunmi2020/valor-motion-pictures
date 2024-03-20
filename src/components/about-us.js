@@ -24,7 +24,7 @@ const About = () => {
                 
                   <div className="about-socials">
                   <a href="https://www.instagram.com/valormotion_pictures?" target="_blank" rel="noreferrer"><img src={instagram} alt="Instagram"/></a>
-                  <a href=" " target="_blank" rel="noreferrer"><img src={tiktok} alt="TikTok"/></a>
+                  <a href="https://www.tiktok.com/@valormotionpictur" target="_blank" rel="noreferrer"><img src={tiktok} alt="TikTok"/></a>
                       
                    </div>
               </div>

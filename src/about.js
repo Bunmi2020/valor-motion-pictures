@@ -34,7 +34,7 @@ function About () {
        borderRadius: '10px',
         right: '0%',
        margin: '30px',
-        padding: '5px 12px'}}><a href="https://wa.me/+2348135330335" target="_blank" rel="noreferrer" style={{color: 'white', padding: '10px', fontSize: '20px'}}>Let's talk</a></button>
+        padding: '5px 12px'}}><a href="https://wa.me/+447587231496" target="_blank" rel="noreferrer" style={{color: 'white', padding: '10px', fontSize: '20px'}}>Let's talk</a></button>
 
       </div>
      
@@ -59,7 +59,7 @@ function About () {
       
     <div className="about-socials">
         <a href="https://www.instagram.com/valormotion_pictures?" target="_blank" rel="noreferrer"><img src={instagram} alt="Instagram"/></a>
-         <a href=" " target="_blank" rel="noreferrer"><img src={tiktok} alt="TikTok"/></a>
+         <a href="https://www.tiktok.com/@valormotionpictur" target="_blank" rel="noreferrer"><img src={tiktok} alt="TikTok"/></a>
                      
       </div>
       

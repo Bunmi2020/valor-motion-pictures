@@ -34,7 +34,7 @@ function Home () {
        borderRadius: '10px',
         right: '0%',
        margin: '20px',
-        padding: '5px 12px'}}><a href="https://wa.me/+2348135330335" target="_blank" rel="noreferrer" style={{color: 'white', padding: '10px', fontSize: '20px'}}>Let's talk</a></button>
+        padding: '5px 12px'}}><a href="https://wa.me/+447587231496" target="_blank" rel="noreferrer" style={{color: 'white', padding: '10px', fontSize: '20px'}}>Let's talk</a></button>
 
       </div>
       

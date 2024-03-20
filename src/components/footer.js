@@ -32,6 +32,13 @@ const Footer = () => {
               +234 813 5330 335
             </a>
             <br />
+            <p> </p>
+            <i className='fa fa-phone icon'></i>
+            <a href="tel:+447587231496" target="_blank" rel="noreferrer" style={{ minWidth: '150px' }}>
+              +44 75 8723 1496
+            </a>
+            <br />
+            <p> </p>
             <i className='fa fa-envelope icon'></i>
             <a href="mailto:contact@valormotionpictures.com" target="_blank" rel="noreferrer">
               support@valormotionpictures.com
@@ -44,7 +51,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/valormotion_pictures?" target="_blank" rel="noreferrer">
                 <img src={instagram} alt="Instagram" />
               </a>
-              <a href="https://www.instagram.com/valormotion_pictures?" target="_blank" rel="noreferrer">
+              <a href="https://www.tiktok.com/@valormotionpictur" target="_blank" rel="noreferrer">
                 <img src={tiktok} alt="TikTok" />
               </a>
             </div>
