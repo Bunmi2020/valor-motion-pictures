@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c8c17646.css",
-    "main.js": "/static/js/main.ba300f37.js",
+    "main.js": "/static/js/main.d50b2f18.js",
     "static/js/453.f24def42.chunk.js": "/static/js/453.f24def42.chunk.js",
     "static/media/birthdays.jpg": "/static/media/birthdays.99751cace9df7ed956ab.jpg",
     "static/media/pre-wedding.jpg": "/static/media/pre-wedding.1ceeb1e65d0cecfe941d.jpg",
@@ -10,18 +10,18 @@
     "static/media/camera-7500550.jpg": "/static/media/camera-7500550.37fa9b9f036c0837e1ff.jpg",
     "static/media/wedding.jpg": "/static/media/wedding.41ea05a08e56240ec477.jpg",
     "static/media/logo.png": "/static/media/logo.2a55cba634b0ae38c0be.png",
+    "static/media/film-production.jpg": "/static/media/film-production.519817d1b8c7ea645e41.jpg",
     "static/media/camera.png": "/static/media/camera.0260249bffdbfc993bce.png",
     "static/media/image_about.png": "/static/media/image_about.a56e8945338f520979a2.png",
     "static/media/instagram1.png": "/static/media/instagram1.8e408da00539cdef4629.png",
-    "static/media/filmproduction.jpg": "/static/media/filmproduction.611673bac6743ce3956a.jpg",
     "static/media/facebook1.png": "/static/media/facebook1.6d8c926db436eb1c4506.png",
     "index.html": "/index.html",
     "main.c8c17646.css.map": "/static/css/main.c8c17646.css.map",
-    "main.ba300f37.js.map": "/static/js/main.ba300f37.js.map",
+    "main.d50b2f18.js.map": "/static/js/main.d50b2f18.js.map",
     "453.f24def42.chunk.js.map": "/static/js/453.f24def42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8c17646.css",
-    "static/js/main.ba300f37.js"
+    "static/js/main.d50b2f18.js"
   ]
 }
