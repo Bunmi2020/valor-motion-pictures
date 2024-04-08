@@ -5,7 +5,7 @@ import service2 from '../media/image/categories/ads.jpg';
 import service3 from '../media/image/categories/pre-wedding.jpg';
 import service4 from '../media/image/categories/proposal.jpg';
 import service5 from '../media/image/categories/wedding.jpg';
-import service6 from '../media/image/categories/filmproduction.jpg';
+import service6 from '../media/image/categories/film-production.jpg';
 
 function Services () {
   
